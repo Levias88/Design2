@@ -12,7 +12,7 @@
   animation-iteration-count: infinite;
   /* linear | ease | ease-in | ease-out | ease-in-out */
   animation-timing-function: linear;
-  width: 1000px;
+  width: 70em;
 }
 
 p {
