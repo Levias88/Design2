@@ -1,0 +1,44 @@
+.img {
+  width: 500px;
+  display: inline-block;
+}
+
+.line-1 {
+  height: 2px;
+  background: black;
+  rotate: 90deg;
+}
+
+@keyframes spinning {
+  from { transform: rotate(0deg) }
+  to { transform: rotate(360deg) }
+}
+.spin {
+  animation-name: spinning;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  /* linear | ease | ease-in | ease-out | ease-in-out */
+  animation-timing-function: linear;
+  width: 700px;
+  margin-left: 360px;
+}
+
+p {
+  width: 500px;
+  font-size: 20px;
+  margin-left: 50px;
+  font-family: 'Lora', serif;
+}
+
+.body {
+  position: relative;
+}
+
+.scales {
+  width: 800px;
+  margin-left: 320px;
+}
+
+.inline {
+  display: inline-block;
+}
