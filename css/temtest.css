@@ -1,11 +1,24 @@
 .img {
-  width: 500px;
+  width: 500em;
 }
 
 @keyframes spinning {
   from { transform: rotate(0deg) }
   to { transform: rotate(360deg) }
 }
+
+.content {
+  max-width: 300px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+}
+
+.content {
+  max-width: 500px;
+  margin: auto;
+}
+
 .spin {
   animation-name: spinning;
   animation-duration: 15s;
@@ -13,6 +26,8 @@
   /* linear | ease | ease-in | ease-out | ease-in-out */
   animation-timing-function: linear;
   width: 50em;
+  position: relative;
+  right: 8.5em;
 }
 
 .center {
@@ -26,6 +41,8 @@ p {
   width: 60em;
   font-size: 1em;
   font-family: 'Lora', serif;
+  position: relative;
+  right: 13em;
 }
 
 .body {
