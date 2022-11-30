@@ -27,7 +27,24 @@
   animation-timing-function: linear;
   width: 50em;
   position: relative;
-  right: 8.5em;
+  right: 10em;
+}
+
+.big-main-text {
+  font-size: 2.6em;
+  position: relative;
+  left: 3.4em;
+  color: #726633;
+}
+
+.para {
+  position: relative;
+  top: 3em;
+}
+
+.para-2 {
+  position: relative;
+  top: 6em;
 }
 
 .center {
@@ -38,11 +55,15 @@
 }
 
 p {
-  width: 60em;
+  width: 43em;
   font-size: 1em;
   font-family: 'Lora', serif;
   position: relative;
-  right: 13em;
+  right: 6em;
+  font-family: mundial, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #726633;
 }
 
 .body {
