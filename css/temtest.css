@@ -14,6 +14,25 @@
   padding: 10px;
 }
 
+#snake-1 {
+  width: 50em;
+  position:relative;
+}
+
+#sun {
+  width: 5em;
+  margin-top: 3em;
+  position: relative;
+  left: 12em;
+}
+
+#sun-2 {
+  width: 5em;
+  margin-top: 7em;
+  position: relative;
+  left: 12em;
+}
+
 .content {
   max-width: 500px;
   margin: auto;
@@ -44,7 +63,7 @@
 
 .para-2 {
   position: relative;
-  top: 6em;
+  top: 4em;
 }
 
 .center {
