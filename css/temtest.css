@@ -57,7 +57,9 @@
   animation-timing-function: linear;
   width: 47em;
   position: relative;
-  right: 10em;
+  right: 9.6em;
+  margin-top: auto;
+  top: 5em;
 }
 
 
