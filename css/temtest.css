@@ -1,5 +1,5 @@
 .img {
-  width: 500em;
+  width: 200em;
 }
 
 @keyframes spinning {
@@ -48,6 +48,18 @@
   position: relative;
   right: 10em;
 }
+
+.spin-2 {
+  animation-name: spinning;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  /* linear | ease | ease-in | ease-out | ease-in-out */
+  animation-timing-function: linear;
+  width: 47em;
+  position: relative;
+  right: 10em;
+}
+
 
 .big-main-text {
   font-size: 2.6em;
