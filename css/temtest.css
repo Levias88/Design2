@@ -9,9 +9,8 @@
 
 .content {
   max-width: 300px;
-  margin: auto;
+  margin:auto;
   background: white;
-  padding: 10px;
 }
 
 #snake-1 {
@@ -23,7 +22,6 @@
   width: 5em;
   margin-top: 3em;
   position: relative;
-  left: 12em;
   transition: box-shadow .3s;
   cursor: pointer;
   border-radius: 50%;
@@ -31,7 +29,6 @@
 
 #sun-2 {
   width: 5em;
-  margin-top: 7em;
   position: relative;
   left: 12em;
   transition: box-shadow .3s;
@@ -49,13 +46,9 @@
 
 .slither {
   width: 20em;
-  position: relative;
-  right: 30em;
 }
 
 .content {
-  max-width: 500px;
-  margin: auto;
 }
 
 .spin {
@@ -117,7 +110,4 @@ p {
   font-weight: 300;
   font-style: normal;
   color: #726633;
-}
-
-.body {
 }
