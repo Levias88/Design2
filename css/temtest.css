@@ -7,21 +7,33 @@
   to { transform: rotate(360deg) }
 }
 
+.body {
+  width:50%
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  place-items: center;
+}
+
+.div-center {
+  text-align: center;
+}
+
 .content {
   max-width: 300px;
   margin:auto;
-  background: white;
 }
 
 #snake-1 {
   width: 50em;
-  position:relative;
 }
 
 #sun {
   width: 5em;
-  margin-top: 3em;
-  position: relative;
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
   transition: box-shadow .3s;
   cursor: pointer;
   border-radius: 50%;
@@ -29,8 +41,8 @@
 
 #sun-2 {
   width: 5em;
-  position: relative;
-  left: 12em;
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
   transition: box-shadow .3s;
   cursor: pointer;
   border-radius: 50%;
@@ -58,8 +70,6 @@
   /* linear | ease | ease-in | ease-out | ease-in-out */
   animation-timing-function: linear;
   width: 50em;
-  position: relative;
-  right: 10em;
 }
 
 .spin-2 {
@@ -69,43 +79,42 @@
   /* linear | ease | ease-in | ease-out | ease-in-out */
   animation-timing-function: linear;
   width: 47em;
-  position: relative;
-  right: 9.6em;
-  margin-top: auto;
-  top: 5em;
+
 }
 
 
 .big-main-text {
   font-size: 2.6em;
-  position: relative;
-  left: 3.4em;
   color: #726633;
 }
 
 .para {
-  position: relative;
-  top: 3em;
 }
 
 .para-2 {
-  position: relative;
-  top: 4em;
 }
 
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  margin: auto;
+  width: 90%;
+  border: 3px solid green;
 }
 
-p {
-  width: 43em;
+h1 {
+  width: 17em;
   font-size: 1em;
   font-family: 'Lora', serif;
-  position: relative;
-  right: 6em;
+  font-family: mundial, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #726633;
+}
+
+
+p {
+  width: 44em;
+  font-size: 1em;
+  font-family: 'Lora', serif;
   font-family: mundial, sans-serif;
   font-weight: 300;
   font-style: normal;
