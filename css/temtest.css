@@ -10,6 +10,7 @@
 .body {
   width:50%
   text-align: center;
+  position: relative;
 }
 
 .grid {
@@ -57,7 +58,17 @@
 }
 
 .slither {
-  width: 20em;
+  width: 30em;
+  position: absolute;
+  top: 93em;
+  right: 68em;
+}
+
+.slither-2 {
+  width: 30em;
+  position: absolute;
+  top: 62em;
+  left: 65em;
 }
 
 .content {
